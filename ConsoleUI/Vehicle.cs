@@ -1,3 +1,5 @@
+using System;
+
 namespace ConsoleUI;
 
 public abstract class Vehicle
@@ -10,6 +12,6 @@ public abstract class Vehicle
 
     public virtual void DriveVirtual()
     {
-        
+        Console.WriteLine("The vehicle is driving.");
     }
 }

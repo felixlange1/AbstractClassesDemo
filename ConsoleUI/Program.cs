@@ -95,10 +95,10 @@ namespace ConsoleUI
             motorcycle.DriveAbstract();
             motorcycle.DriveVirtual();
             vehicle1.DriveAbstract();
-            vehicle2.DriveVirtual();
+            vehicle1.DriveVirtual();
             
             #endregion            
-            Console.ReadLine();
+            // Console.ReadLine();
         }
     }
 }
